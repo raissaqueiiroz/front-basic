@@ -7,7 +7,7 @@ Liste o feed do Instagram da @squidapp. Utilizar de CSS para personalizar o layo
 Além do hover, cada imagem deve ter um click para o Link da imagem no instagram, abrindo em uma nova aba ao clicar.
 Responsividade e experiência de usuário (como loaders, tratamento de erros, animações, efeitos, etc) serão levados em consideração na avaliação.
 No final, subir o código em um repositório público no seu próprio GitHub e mandar o link para o avaliador.
-** É permitido o uso de qualquer framework javascript no teste! **
+É permitido o uso de qualquer framework javascript no teste!
 
 ## Bonus
 Utilizar o framework da Squid para construção do layout
