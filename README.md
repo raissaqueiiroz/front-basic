@@ -14,7 +14,7 @@ Utilizar o framework da Squid para construção do layout
 [SQUID CSS](https://css.squidit.com.br/)
 
 ## Problemas e Duvidas
-Caso trenha algum problema com endpoint, ou alguma duvida sobre o teste abra uma Issue nesse repositório, não precisa entrar em contato com o seu recrutador!
+Caso tenha algum problema com endpoint, ou alguma duvida sobre o teste abra uma Issue nesse repositório, não precisa entrar em contato com o seu recrutador!
 
 ## Resultado Final
 ![Resultado](assets/result.jpeg "Resultado")
