@@ -1,0 +1,9 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin: auto;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  width: 400px;
+}
