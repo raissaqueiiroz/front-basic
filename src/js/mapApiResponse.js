@@ -7,7 +7,7 @@ const mapDate = (date) => {
   const hour = date.substring(11, 13);
   const minute = date.substring(14, 16);
 
-  return `📅 ${day}/${month}/${year} ${hour}:${minute}`;
+  return `<time>📅 ${day}/${month}/${year} ${hour}:${minute}</time>`;
 };
 
 export const mapApiResponse = (response) => {
@@ -15,8 +15,6 @@ export const mapApiResponse = (response) => {
 
   response.forEach((publication) => {
     let legenda = publication.legenda.substr(0, 30);
-
-    console.log(publication.usuario.username);
 
     newResponse.push({
       url: publication.imagens.resolucaoPadrao.url,

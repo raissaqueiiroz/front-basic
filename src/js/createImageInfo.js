@@ -14,9 +14,9 @@ export const createInfoDiv = (images) => {
     createCommentsP.classList.add(`comments-${index}`, "comments");
     createCommentsP.innerText = `💬 ${image.comments}`;
 
-    const createDateP = document.createElement("p");
+    const createDateP = document.createElement("div");
     createDateP.classList.add(`date-${index}`, "date");
-    createDateP.innerText = image.date;
+    createDateP.innerHTML = image.date;
 
     const createNicknameP = document.createElement("p");
     createNicknameP.classList.add(`nickname-${index}`, "nickname");
