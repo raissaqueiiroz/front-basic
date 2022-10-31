@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "ElliotSix";
+  src: url("../../public/fonts/ElliotSix.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../../public/fonts/Roboto-Black.ttf");
+}
+
+.boardImages {
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.div-image {
+  position: relative;
+  width: 200px;
+  cursor: pointer;
+}
+
+.imageText {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  flex-direction: column;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.image-board {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.div-text {
+  display: flex;
+  max-width: 100%;
+  width: 200px;
+  height: 40px;
+  font-family: "ElliotSix", "sans-serif";
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+  background: #009578;
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.like .comments .date .nickname {
+  font-size: 1.25em;
+  margin-top: 0.15em;
+}
