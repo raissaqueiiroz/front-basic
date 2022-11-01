@@ -100,3 +100,56 @@
   font-size: 1.25em;
   margin-top: 0.15em;
 }
+
+@media (min-width: 481px) and (max-width: 834px) {
+  .boardImages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+  }
+
+  .imageText {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+
+  .div-image {
+    display: flex;
+    max-width: 700px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+  }
+
+  .image-board {
+    object-fit: fill;
+    max-width: 700px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+  }
+
+  .div-text {
+    max-width: 500px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    font-family: "ElliotSix", "sans-serif";
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+}
