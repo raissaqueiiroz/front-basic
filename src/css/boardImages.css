@@ -179,16 +179,16 @@
 
   .div-image {
     display: flex;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 320px;
+    max-height: 320px;
     width: auto;
     height: auto;
   }
 
   .image-board {
     object-fit: fill;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 320px;
+    max-height: 320px;
     width: auto;
     height: auto;
   }
